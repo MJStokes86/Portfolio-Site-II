@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://fonts.googleapis.com/css?family=Arimo);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
 
 * {
 	margin:0;
@@ -17,6 +18,7 @@ header {
 	flex-direction:column;
 	justify-content: center;
 	align-items:center;
+
 
 }
 
@@ -58,4 +60,22 @@ header {
 	padding: 10px;
 
 }
+
+.inner-content {
+	background-color:#272829;
+	margin-top: -50px;
+	
+}
+
+.about-content {
+	color: #fff;
+	font-family: 'Lobster', cursive;
+	font-size: 1.3em;
+}
+
+.img-circle {
+	border: solid #fff 10px;
+}
+
+
 
