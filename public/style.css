@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://fonts.googleapis.com/css?family=Arimo);
 @import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Anton);
 
 * {
 	margin:0;
@@ -8,7 +9,7 @@
 }
 
 header {
-	background-image:url('http://www.imagebase.net/var/albums/City-88911873/NYC%20125%20copy.jpg');
+	background-image:url('http://i.imgur.com/sxITSwK.jpg');
 	height:100vh;
 	background-size: cover;
 	background-position:center;
@@ -33,7 +34,7 @@ header {
 }
 
 .name {
-	font-family:Impact;
+	font-family:'Anton', sans-serif;
 	font-size: 50px;
 	}
 
@@ -93,7 +94,7 @@ header {
 
 #resume-button {
 	border: solid #fff;
-	padding: 25px;
+	padding: 10px;
 	display: inline-block;
 
 }
@@ -101,16 +102,12 @@ header {
 	background-color:#fff;
 	color: #1A0c52;
 	cursor:pointer;
-	-webkit-transition: background 0.5s linear;
-     -moz-transition: background 0.5s linear;
-     -ms-transition: background 0.5s linear;
-     -o-transition: background 0.5s linear;
-     transition: background 0.5s linear;
 }
 
 .skills-content {
 	background-color: #1A0C52;
 	margin-top: -10px;
+	font-family: 'Arimo', sans-serif;
 	color: #fff;
 }
 
@@ -119,4 +116,62 @@ header {
 	height: 1px;
 	background-color: #fff;
 
+}
+
+.portfolio-content {
+	background-color:#C427D9;
+	margin-top: 0;
+}
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item{
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+
+.item img {
+	height:auto;
+	width: 100%;
+
+}
+
+.project-info {
+	padding-left: 30px;
+	color: #fff;
+}
+
+.project-info {
+ font-family: 'Arimo', sans-serif;
+}
+
+.project-info h1 {
+	font-family: 'Anton', sans-serif;
+}
+
+.project-meta h3 {
+	font-weight:bold;
+}
+
+.project-meta li {
+	list-style: none;
+}
+
+.key-highlights li {
+	list-style: circle;
+}
+
+.links span{
+	border: solid #fff;
+	padding: 10px;
+	display: inline-block;
+}
+
+.links span:hover {
+	cursor:pointer;
+	color:#C427D9;
+	background-color: #fff;
 }
