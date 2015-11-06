@@ -175,3 +175,35 @@ header {
 	color:#C427D9;
 	background-color: #fff;
 }
+
+.contact-content {
+	background-color:#272829;
+	color: #fff;
+}
+
+.input-wrap {
+	font-family: 'Arimo', sans-serif;
+
+
+}
+
+
+.form-control {
+	background-color: transparent;
+	border: solid #fff 3px;
+	border-radius: 0;
+	color: #fff;
+}
+
+.form-control:focus {
+  border-color: #fff;
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.075), 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+#button {
+	background-color: transparent;
+	border: solid #fff 3px;
+	padding:20px;
+	width:100%;
+	font-family: 'Arimo', sans-serif;
+}

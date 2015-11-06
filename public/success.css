@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	/*background-image:url('http://i.imgur.com/sxITSwK.jpg');*/
+	background-color: #000;
+	height:100vh;
+	background-size: cover;
+	background-position:center;
+	color: white;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items:center;
+}
+
+h1 {
+	border: solid #fff;
+	color: #fff;
+	font-family: 'Arimo', sans-serif;
+	padding: 50px;
+
+}
