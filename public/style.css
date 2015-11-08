@@ -8,6 +8,64 @@
 	padding:0;
 }
 
+body{
+	background-color: #000;
+}
+
+nav li{
+	list-style: none;
+	padding: 10px;
+
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #fff;
+	text-decoration: none;
+	
+}
+
+nav li a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.nav-toggle {
+	position: relative;
+	color: #fff;
+
+
+}
+
+
+.main-navigation {
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	transform: translateY(-210%);
+	transition: transform 0.6s ease;
+}
+
+.main-navigation.open {
+	transform: translateY(50%);
+}
+
+
+
+.nav-links {
+	border: solid #fff;
+	
+}
+
+
 header {
 	background-image:url('http://i.imgur.com/sxITSwK.jpg');
 	height:100vh;
@@ -15,6 +73,7 @@ header {
 	background-position:center;
 	color: white;
 	margin-bottom:50px;
+	margin-top: -30px;
 	display: flex;
 	flex-direction:column;
 	justify-content: center;
@@ -23,15 +82,6 @@ header {
 
 }
 
-.logo {
-	background-color:black;
-	border: solid #fff;
-	padding:25px 25px;
-	display:inline-block;
-	font-family: 'Arimo' , sans-serif;
-	font-size: 50px;
-
-}
 
 .name {
 	font-family:'Anton', sans-serif;
@@ -44,6 +94,7 @@ header {
 	border: solid #fff;
 	padding:25px;
 	display:inline-block;
+	/*background-color: #000;*/
 }
 
 .section-title {
@@ -93,7 +144,7 @@ header {
 }
 
 #resume-button {
-	border: solid #fff;
+	border:  solid #fff;
 	padding: 10px;
 	display: inline-block;
 
@@ -106,7 +157,7 @@ header {
 
 .skills-content {
 	background-color: #1A0C52;
-	margin-top: -10px;
+	margin-top: 0;
 	font-family: 'Arimo', sans-serif;
 	color: #fff;
 }
@@ -206,4 +257,26 @@ header {
 	padding:20px;
 	width:100%;
 	font-family: 'Arimo', sans-serif;
+}
+
+footer {
+	background-color: #000;
+	color:#fff;
+
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer a:hover, a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-social-links li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
 }

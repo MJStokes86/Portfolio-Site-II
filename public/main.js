@@ -28,6 +28,35 @@ $(document).ready(function(){
 	$('#source-code-3').click(function(){
 		window.location.href = ('https://github.com/MJStokes86/ToDo-App')
 	})
+
+	
+
+		$('.nav-toggle').on('click', function(){
+		$('.main-navigation').toggleClass('open');
+
+		});
+
+		
+
+	
+
+	 $('a[href*=#]').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname) {
+      var $target = $(this.hash);
+      $target = $target.length && $target
+      || $('[name=' + this.hash.slice(1) +']');
+      if ($target.length) {
+        var targetOffset = $target.offset().top;
+        $('html,body')
+        .animate({scrollTop: targetOffset}, 1000);
+       return false;
+      }
+    }
+  });
+
+	
+
 	
 
 	$("#owl-demo").owlCarousel({
