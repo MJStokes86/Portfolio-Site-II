@@ -7,8 +7,7 @@
 }
 
 body {
-	/*background-image:url('http://i.imgur.com/sxITSwK.jpg');*/
-	background-color: #000;
+	background-image:url('Images/oldnyc3.png');
 	height:100vh;
 	background-size: cover;
 	background-position:center;
@@ -24,5 +23,6 @@ h1 {
 	color: #fff;
 	font-family: 'Arimo', sans-serif;
 	padding: 50px;
+	background: rgba(0, 0, 0, 0.7)
 
 }

@@ -62,12 +62,15 @@ nav li a:visited {
 
 .nav-links {
 	border: solid #fff;
+	background: rgba(0, 0, 0, 0.5);
+
+
 	
 }
 
 
 header {
-	background-image:url('Images/broadway2.jpg');
+	background-image:url('Images/80snyc7.png');
 	height:100vh;
 	background-size: cover;
 	background-position:center;
@@ -123,7 +126,7 @@ header {
 .inner-content {
 /*	background-color:#272829;*/
 	margin-top: -50px;
-	background-image: url('Images/subway_cars.jpg');
+	background-image: url('Images/brooklyn.jpg');
 	background-size: cover;
 	background-position:center;
 	
@@ -137,7 +140,7 @@ header {
 	border: solid #fff;
 	padding:25px;
 	display:inline-block;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.7);
 
 }
 
@@ -147,6 +150,10 @@ header {
 
 .col-md-3 {
 	text-align: center;
+	border: solid #fff;
+	background: rgba(0, 0, 0, 0.7);
+
+
 }
 
 .col-md-3 li {
@@ -157,6 +164,7 @@ header {
 	border:  solid #fff;
 	padding: 10px;
 	display: inline-block;
+	background: rgba(0, 0, 0, 0.7);
 	-webkit-transition: background 0.5s linear;
 	-moz-transition: background 0.5s linear;
 	-ms-transition: background 0.5s linear;
@@ -166,13 +174,16 @@ header {
 }
 #resume-button:hover {
 	background-color:#fff;
-	color: #1A0c52;
+	color: #000;
 	cursor:pointer;
 	
 }
 
 .skills-content {
-	background-color: #1A0C52;
+	background-image: url('Images/oldnyc2.jpg');
+	background-size: cover;
+	background-position:center;
+	/*background-color: #1A0C52;*/
 	margin-top: 0;
 	font-family: 'Arimo', sans-serif;
 	color: #fff;
@@ -186,14 +197,17 @@ header {
 }
 
 .portfolio-content {
-	/*background: url('http://peterhujararchive.com/wp-content/uploads/2014/10/EPH_1039-Hallway-Canal-Street-Pier.jpg');*/
-	background-color:#C427D9;
+	background-image: url('Images/subway_tiles.jpg');
+	background-size: cover;
+	background-position:center;
+	/*background-color:#C427D9;*/
 	margin-top: 0;
 }
 
-/*.project-info {
+.project-info {
 	background: rgba(0, 0, 0, 0.7);
-}*/
+	border: solid #fff;
+}
 
 #owl-demo .item{
   margin: 3px;
@@ -251,19 +265,32 @@ header {
 
 .links span:hover {
 	cursor:pointer;
-	color:#C427D9;
+	color:#000;
 	background-color: #fff;
 }
 
 .contact-content {
-	background-color:#272829;
+	background-image: url('Images/80snyc3.jpg');
+	background-size: cover;
+	background-position:center;
 	color: #fff;
 	font-family: 'Arimo', sans-serif;
 	font-size: 1.5em;
+
+}
+
+#contact-content {
+	border: solid #fff;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+
 }
 
 .input-wrap {
 	font-family: 'Arimo', sans-serif;
+	background: rgba(0, 0, 0, 0.7);
+
+
 
 
 }
@@ -292,6 +319,8 @@ header {
 	-ms-transition: background 0.5s linear;
 	-o-transition: background 0.5s linear;
 	transition: background 0.5s linear;
+	background: rgba(0, 0, 0, 0.7);
+
 }
 
 #button:hover {
@@ -300,7 +329,9 @@ header {
 }
 
 footer {
-	background-color: #000;
+	background-image: url('Images/nycwall1.jpg');
+	background-size: cover;
+	background-position:bottom;
 	color:#fff;
 	font-family: 'Arimo', sans-serif;
 	font-size: 1.5em;
@@ -321,4 +352,9 @@ footer a:hover, a:visited{
 	list-style: none;
 	display: inline-block;
 	padding: 10px;
+}
+
+#footer-center {
+	/*border: solid #fff;*/
+	background: rgba(0, 0, 0, 0.7);
 }
