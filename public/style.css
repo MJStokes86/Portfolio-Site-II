@@ -286,6 +286,11 @@ header {
 
 }
 
+#contact-content a {
+	color: #fff;
+	text-decoration: none;
+}
+
 .input-wrap {
 	font-family: 'Arimo', sans-serif;
 	background: rgba(0, 0, 0, 0.7);
