@@ -384,22 +384,6 @@ footer a:hover, a:visited{
   and (min-device-width: 320px) 
   and (max-device-width: 480px) {
 
-  	#header {
-	/*background-image:url('Images/gloomynyc3.jpg');*/
-	height:100vh;
-	/*background-size: cover;
-	background-position:center;*/
-	color: #fff;
-	margin-bottom:50px;
-	margin-top: -30px;
-	display: flex;
-	flex-direction:column;
-	justify-content: center;
-	align-items:center;
-
-
-
-}
 
 
   	.title {
@@ -418,6 +402,10 @@ footer a:hover, a:visited{
 
   	.list-group li{
   		display: block;
+  	}
+
+  	.nav-toggle, .main-navigation, .list-group {
+  		display: none;
   	}
 }
 
