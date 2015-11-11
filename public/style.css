@@ -409,7 +409,7 @@ footer a:hover, a:visited{
   	}
 
   	#header {
-  	height:100vh;
+  	/*height:100vh;*/
 	/*margin-bottom:50px;
 	margin-top: -30px;*/
 	display: flex;
