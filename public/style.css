@@ -9,7 +9,9 @@
 }
 
 body{
-	background-color: #000;
+	background-image:url('Images/gloomynyc2.jpg');
+	background-size: cover;
+	background-position:center;
 }
 
 nav li{
@@ -61,7 +63,7 @@ nav li a:visited {
 
 
 .nav-links {
-	border: solid #fff;
+	border: solid #fff 2px;
 	background: rgba(0, 0, 0, 0.5);
 
 
@@ -70,10 +72,10 @@ nav li a:visited {
 
 
 header {
-	background-image:url('Images/80snyc7.png');
+	/*background-image:url('Images/gloomynyc3.jpg');*/
 	height:100vh;
-	background-size: cover;
-	background-position:center;
+	/*background-size: cover;
+	background-position:center;*/
 	color: #fff;
 	margin-bottom:50px;
 	margin-top: -30px;
@@ -95,11 +97,11 @@ header {
 .title {
 	font-family: 'Arimo', sans-serif;
 	font-size: 25px;
-	border: solid #fff;
+	border: solid #fff 2px;
 	padding:25px;
 	display:inline-block;
-	background: rgba(0, 0, 0, 0.5);
-
+	/*background-color: #595C61;
+*/
 }
 
 .section-title {
@@ -124,9 +126,8 @@ header {
 }
 
 .inner-content {
-/*	background-color:#272829;*/
+	background-color:#373737;
 	margin-top: -50px;
-	background-image: url('Images/brooklyn.jpg');
 	background-size: cover;
 	background-position:center;
 	
@@ -137,10 +138,11 @@ header {
 	color: #fff;
 	font-family: 'Arimo', sans-serif;
 	font-size: 1.3em;
-	border: solid #fff;
+	border: solid #fff 2px;
 	padding:25px;
 	display:inline-block;
-	background: rgba(0, 0, 0, 0.7);
+/*	background-color: #595C61;
+	background: rgba(0, 0, 0, 0.5);*/
 
 }
 
@@ -148,12 +150,21 @@ header {
 	border: solid #fff 10px;
 }
 
+.inner-content, .col-md-12{
+	background: rgba(0, 0, 0, 0.7);
+}
+
 .col-md-3 {
 	text-align: center;
-	border: solid #fff;
-	background: rgba(0, 0, 0, 0.7);
+	/*border: solid #fff;
+	background: rgba(0, 0, 0, 0.7);*/
 
 
+}
+
+.col-md-3 h3 {
+	border: solid #fff 2px;
+	padding: 10px;
 }
 
 .col-md-3 li {
@@ -161,10 +172,10 @@ header {
 }
 
 #resume-button {
-	border:  solid #fff;
+	border:  solid #fff 2px;
 	padding: 10px;
 	display: inline-block;
-	background: rgba(0, 0, 0, 0.7);
+	/*background: rgba(0, 0, 0, 0.7);*/
 	-webkit-transition: background 0.5s linear;
 	-moz-transition: background 0.5s linear;
 	-ms-transition: background 0.5s linear;
@@ -180,13 +191,14 @@ header {
 }
 
 .skills-content {
-	background-image: url('Images/oldnyc2.jpg');
+	/*background-image: url('Images/oldnyc2.jpg');
 	background-size: cover;
-	background-position:center;
-	/*background-color: #1A0C52;*/
+	background-position:center;*/
+	background-color: #484848;
 	margin-top: 0;
 	font-family: 'Arimo', sans-serif;
 	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
 }
 
 .skill-bar span{
@@ -197,16 +209,16 @@ header {
 }
 
 .portfolio-content {
-	background-image: url('Images/subway_tiles.jpg');
+	/*background-image: url('Images/subway_tiles.jpg');
 	background-size: cover;
-	background-position:center;
+	background-position:center;*/
 	/*background-color:#C427D9;*/
 	margin-top: 0;
 }
 
 .project-info {
 	background: rgba(0, 0, 0, 0.7);
-	border: solid #fff;
+	border: solid #fff 2px;
 }
 
 #owl-demo .item{
@@ -222,6 +234,7 @@ header {
 .item img {
 	height:auto;
 	width: 100%;
+	border: solid #fff;
 
 }
 
@@ -251,7 +264,7 @@ header {
 }
 
 .links span{
-	border: solid #fff;
+	border: solid #fff 2px;
 	padding: 10px;
 	display: inline-block;
 	-webkit-transition: background 0.5s linear;
@@ -270,17 +283,20 @@ header {
 }
 
 .contact-content {
-	background-image: url('Images/80snyc3.jpg');
+	/*background-image: url('Images/80snyc3.jpg');
 	background-size: cover;
-	background-position:center;
+	background-position:center;*/
+	background-color:#373737;
 	color: #fff;
 	font-family: 'Arimo', sans-serif;
 	font-size: 1.5em;
+	background: rgba(0, 0, 0, 0.7);
+
 
 }
 
 #contact-content {
-	border: solid #fff;
+	border: solid #fff 2px;
     background: rgba(0, 0, 0, 0.7);
     padding: 10px;
 
@@ -293,8 +309,8 @@ header {
 
 .input-wrap {
 	font-family: 'Arimo', sans-serif;
-	background: rgba(0, 0, 0, 0.7);
-
+	/*background: rgba(0, 0, 0, 0.7);
+*/
 
 
 
@@ -303,7 +319,7 @@ header {
 
 .form-control {
 	background-color: transparent;
-	border: solid #fff 3px;
+	border: solid #fff 2px;
 	border-radius: 0;
 	color: #fff;
 }
@@ -315,7 +331,7 @@ header {
 
 #button {
 	background-color: transparent;
-	border: solid #fff 3px;
+	border: solid #fff 2px;
 	padding:20px;
 	width:100%;
 	font-family: 'Arimo', sans-serif;
@@ -324,8 +340,8 @@ header {
 	-ms-transition: background 0.5s linear;
 	-o-transition: background 0.5s linear;
 	transition: background 0.5s linear;
-	background: rgba(0, 0, 0, 0.7);
-
+	/*background: rgba(0, 0, 0, 0.7);
+*/
 }
 
 #button:hover {
@@ -334,9 +350,9 @@ header {
 }
 
 footer {
-	background-image: url('Images/nycwall1.jpg');
+	/*background-image: url('Images/nycwall1.jpg');
 	background-size: cover;
-	background-position:bottom;
+	background-position:bottom;*/
 	color:#fff;
 	font-family: 'Arimo', sans-serif;
 	font-size: 1.5em;
@@ -361,5 +377,106 @@ footer a:hover, a:visited{
 
 #footer-center {
 	/*border: solid #fff;*/
-	background: rgba(0, 0, 0, 0.7);
+	/*background: rgba(0, 0, 0, 0.7);*/
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+
+  	.title {
+  		font-size: 1em;
+  		padding: 10px;
+  	}
+
+  	.name {
+  		font-size: 2.5em;
+  	}
+
+  	#logo {
+  		width: 75px;
+  		height: 75px;
+  	}
+
+  	.list-group li{
+  		display: block;
+  	}
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+ 								{
+	.title {
+  		font-size: 1em;
+  		padding: 10px;
+  	}
+
+  	.name {
+  		font-size: 2.5em;
+  	}
+
+  	#logo {
+  		width: 75px;
+  		height: 75px;
+  	}
+
+  	.list-group li{
+  		display: block;
+  	}
+
+
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  							 { 
+.title {
+  		font-size: 1em;
+  		padding: 10px;
+  	}
+
+  	.name {
+  		font-size: 2.5em;
+  	}
+
+  	#logo {
+  		width: 100px;
+  		height: 100px;
+  	}
+
+  	.list-group li{
+  		display: block;
+  	}
+
+
+
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+  	.title {
+  		font-size: 1em;
+  		padding: 10px;
+  	}
+
+  	.name {
+  		font-size: 2.5em;
+  	}
+
+  	#logo {
+  		width: 100px;
+  		height: 100px;
+  	}
+
+  	.list-group li{
+  		display: block;
+  	}
+
+
+
 }
