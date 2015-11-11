@@ -407,6 +407,16 @@ footer a:hover, a:visited{
   	.nav-toggle, .main-navigation, .list-group {
   		display: none;
   	}
+
+  	#header {
+  	height:100vh;
+	/*margin-bottom:50px;
+	margin-top: -30px;*/
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items:center;
+  	}
 }
 
 @media only screen 
