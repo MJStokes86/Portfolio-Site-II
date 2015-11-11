@@ -410,8 +410,8 @@ footer a:hover, a:visited{
 
   	#header {
   	position: relative;
-  	top: 30em;
-  	
+  	top:0;
+
   	}
 }
 
