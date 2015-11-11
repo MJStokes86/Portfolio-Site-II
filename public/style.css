@@ -409,13 +409,8 @@ footer a:hover, a:visited{
   	}
 
   	#header {
-  	/*height:100vh;*/
-	/*margin-bottom:50px;
-	margin-top: -30px;*/
-	display: flex;
-	flex-direction:column;
-	justify-content: center;
-	align-items:center;
+  	position: absolute;
+  	top: 50%;
   	}
 }
 
