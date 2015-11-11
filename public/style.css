@@ -419,7 +419,7 @@ footer a:hover, a:visited{
   	}
 }
 
-@media only screen 
+@media only screen /* iphone 5 and iphone 5s */
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
  								{
@@ -441,10 +441,18 @@ footer a:hover, a:visited{
   		display: block;
   	}
 
+ 	#header {
+	  	position: relative;
+	  	top:10em;
+	  	text-align: center;
+	  	margin-left: auto;
+	  	margin-right: auto;
+
+  	}
 
 }
 
-@media only screen 
+@media only screen /* iphone 6 */
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   							 { 
@@ -467,10 +475,20 @@ footer a:hover, a:visited{
   	}
 
 
+ 	#header {
+	  	position: relative;
+	  	top:10em;
+	  	text-align: center;
+	  	margin-left: auto;
+	  	margin-right: auto;
+
+  	}
+
+
 
 }
 
-@media only screen 
+@media only screen /* iphone 6+ */
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
@@ -491,6 +509,16 @@ footer a:hover, a:visited{
 
   	.list-group li{
   		display: block;
+  	}
+
+
+ 	#header {
+	  	position: relative;
+	  	top:10em;
+	  	text-align: center;
+	  	margin-left: auto;
+	  	margin-right: auto;
+
   	}
 
 
