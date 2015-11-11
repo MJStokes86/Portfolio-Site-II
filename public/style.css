@@ -380,9 +380,27 @@ footer a:hover, a:visited{
 	/*background: rgba(0, 0, 0, 0.7);*/
 }
 
-@media only screen 
+@media only screen /*iPhone 4 and iphone 4s */
   and (min-device-width: 320px) 
   and (max-device-width: 480px) {
+
+  	#header {
+	/*background-image:url('Images/gloomynyc3.jpg');*/
+	height:100vh;
+	/*background-size: cover;
+	background-position:center;*/
+	color: #fff;
+	margin-bottom:50px;
+	margin-top: -30px;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items:center;
+
+
+
+}
+
 
   	.title {
   		font-size: 1em;
