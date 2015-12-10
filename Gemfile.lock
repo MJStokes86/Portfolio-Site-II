@@ -49,6 +49,3 @@ DEPENDENCIES
   pony
   sendmail
   sinatra
-
-BUNDLED WITH
-   1.10.6
