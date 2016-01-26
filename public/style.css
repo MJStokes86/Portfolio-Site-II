@@ -9,7 +9,7 @@
 }
 
 body{
-	background-image:url('Images/gloomynyc2.jpg');
+	background-image:url('Images/bklynbridge.jpg');
 	background-size: cover;
 	background-position:center;
 }
@@ -97,11 +97,12 @@ header {
 .title {
 	font-family: 'Arimo', sans-serif;
 	font-size: 25px;
-	border: solid #fff 2px;
-	padding:25px;
+	/*border: solid #fff 2px;*/
+	padding:25px 100px;
 	display:inline-block;
-	/*background-color: #595C61;
-*/
+	background-color: #000;
+	background: rgba(0, 0, 0, 0.7);
+
 }
 
 .section-title {
@@ -146,8 +147,8 @@ header {
 
 }
 
-.img-circle {
-	border: solid #fff 10px;
+.img {
+	border: solid #fff 5px;
 }
 
 .inner-content, .col-md-12{
@@ -198,7 +199,7 @@ header {
 	margin-top: 0;
 	font-family: 'Arimo', sans-serif;
 	color: #fff;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.1);
 }
 
 .skill-bar span{
@@ -206,6 +207,14 @@ header {
 	height: 1px;
 	background-color: #fff;
 
+}
+
+#skills-title {
+	margin-top: 50px;
+}
+
+.col-md-3 {
+	margin-top: 100px;
 }
 
 .portfolio-content {
