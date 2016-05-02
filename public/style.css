@@ -475,12 +475,13 @@ footer a:hover, a:visited{
   	}
 
   	#logo {
-  		width: 300px;
-  		height: 300px;
+  		width: 200px;
+  		height: 200px;
+  		margin-top: -225px;
   	}
 
   	.list-group li{
-  		display: block;
+  		display: none;
   	}
 
 
@@ -491,6 +492,11 @@ footer a:hover, a:visited{
 	  	margin-left: auto;
 	  	margin-right: auto;
 
+  	}
+
+
+  	.nav-toggle {
+  		display: none;
   	}
 
 
