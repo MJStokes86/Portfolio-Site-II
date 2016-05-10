@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	
 	$('#resume-button').click(function(){
-		window.location.href = ('Michael_J_Stokes_Resume (2).pdf')
+		window.location.href = ('Michael_J_Stokes_Resume.pdf')
 	});
 
 	$('#project-link-1').click(function(){
@@ -85,6 +85,15 @@ $(document).ready(function(){
 
 	$('#source-code-10').click(function(){
 		window.location.href = ('https://github.com/MJStokes86/NLM-Marketing')
+	});
+
+
+    $('#project-link-12').click(function(){
+		window.location.href = ('http://music-forum.herokuapp.com/')
+	});
+
+	$('#source-code-12').click(function(){
+		window.location.href = ('https://github.com/MJStokes86/Music-Forum.git')
 	});
 
 
