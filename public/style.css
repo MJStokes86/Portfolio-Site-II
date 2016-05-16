@@ -177,6 +177,10 @@ header {
 	list-style: none;
 }
 
+ .devicons {
+	font-size: 4em;
+}
+
 #resume-button {
 	border:  solid #fff 2px;
 	padding: 10px;
