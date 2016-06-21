@@ -409,60 +409,24 @@ footer a:hover, a:visited{
 
 
 
-  	.title {
-  		font-size: 1em;
-  		padding: 10px;
+  	#title {
+  		font-size: 1.5em;
+  		padding: 15px;
   	}
 
-  	.name {
-  		font-size: 2.5em;
+  	#my-name {
+  		font-size: 2.7em;
   	}
 
   	#logo {
-  		width: 75px;
-  		height: 75px;
-
+  		width: 200px !important;
+  		height: 200px !important;
+  		margin-top: -225px;
   	}
-
   	.list-group li{
-  		display: block;
-  	}
-
-  	.nav-toggle, .main-navigation, .list-group {
   		display: none;
   	}
 
-  	#header {
-  	position: relative;
-  	top:10em;
-  	text-align: center;
-  	margin-left: auto;
-  	margin-right: auto;
-
-  	}
-}
-
-@media only screen /* iphone 5 and iphone 5s */
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
- 								{
-	.title {
-  		font-size: 1em;
-  		padding: 10px;
-  	}
-
-  	.name {
-  		font-size: 2.5em;
-  	}
-
-  	#logo {
-  		width: 75px;
-  		height: 75px;
-  	}
-
-  	.list-group li{
-  		display: block;
-  	}
 
  	#header {
 	  	position: relative;
@@ -473,19 +437,93 @@ footer a:hover, a:visited{
 
   	}
 
+
+  	.nav-toggle {
+  		display: none;
+  	}
+
+  	.section-title {
+  		text-align: center;
+  	}
+
+  	#my-pic {
+  		position: relative;
+  		left: 0% !important;
+  	}
+  	p, h1, h2, h3{
+  		text-align: center;
+  	}
+
+
+
+}
+
+@media only screen /* iphone 5 and iphone 5s */
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+ 								{
+	#title {
+  		font-size: 1.5em;
+  		padding: 15px;
+  	}
+
+  	#my-name {
+  		font-size: 2.7em;
+  	}
+
+  	#logo {
+  		width: 75px;
+  		height: 75px;
+  		
+  	}
+
+  	.list-group li{
+  		display: none;
+  	}
+
+
+ 	#header {
+	  	position: relative;
+	  	top:10em;
+	  	text-align: center;
+	  	margin-left: auto;
+	  	margin-right: auto;
+
+  	}
+
+
+  	.nav-toggle {
+  		display: none;
+  	}
+
+  	.section-title {
+  		text-align: center;
+  	}
+
+  	#my-pic {
+  		position: relative;
+  		left: 5%;
+  	}
+
+  	p, h1, h2, h3{
+  		text-align: center;
+  	}
+
+
+
 }
 
 @media only screen /* iphone 6 */
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   							 { 
-.title {
-  		font-size: 1em;
-  		padding: 10px;
+#title {
+  		font-size: 1.5em;
+  		padding: 15px;
   	}
 
-  	.name {
-  		font-size: 2.5em;
+  	#my-name {
+  		font-size: 2.7em;
   	}
 
   	#logo {
@@ -513,6 +551,18 @@ footer a:hover, a:visited{
   		display: none;
   	}
 
+  	.section-title {
+  		text-align: center;
+  	}
+
+  	#my-pic {
+  		position: relative;
+  		left: 5% !important;
+  	}
+
+	p, h1, h2, h3{
+  		text-align: center;
+  	}
 
 
 }
@@ -522,22 +572,23 @@ footer a:hover, a:visited{
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
-  	.title {
-  		font-size: 1em;
-  		padding: 10px;
+  #title {
+  		font-size: 1.5em;
+  		padding: 15px;
   	}
 
-  	.name {
-  		font-size: 2.5em;
+  	#my-name {
+  		font-size: 2.7em;
   	}
 
   	#logo {
-  		width: 100px;
-  		height: 100px;
+  		width: 200px;
+  		height: 200px;
+  		margin-top: -225px;
   	}
 
   	.list-group li{
-  		display: block;
+  		display: none;
   	}
 
 
@@ -548,6 +599,24 @@ footer a:hover, a:visited{
 	  	margin-left: auto;
 	  	margin-right: auto;
 
+  	}
+
+
+  	.nav-toggle {
+  		display: none;
+  	}
+
+  	.section-title {
+  		text-align: center;
+  	}
+
+  	#my-pic {
+  		position: relative;
+  		left: 10% !important;
+  	}
+
+  	p, h1, h2, h3{
+  		text-align: center;
   	}
 
 
