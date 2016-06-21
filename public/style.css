@@ -437,6 +437,13 @@ footer a:hover, a:visited{
 
   	}
 
+  	.skills-content {
+	
+	font-family: 'Arimo', sans-serif;
+
+	
+}
+
 
   	.nav-toggle {
   		display: none;
@@ -444,6 +451,7 @@ footer a:hover, a:visited{
 
   	.section-title {
   		text-align: center;
+  		font-family: Impact , sans-serif;
   	}
 
   	#my-pic {
@@ -477,6 +485,13 @@ footer a:hover, a:visited{
   		
   	}
 
+  	.skills-content {
+	
+	font-family: 'Arimo', sans-serif;
+	
+	
+}
+
   	.list-group li{
   		display: none;
   	}
@@ -498,6 +513,7 @@ footer a:hover, a:visited{
 
   	.section-title {
   		text-align: center;
+  		font-family: Impact , sans-serif;
   	}
 
   	#my-pic {
@@ -517,6 +533,7 @@ footer a:hover, a:visited{
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   							 { 
+
 #title {
   		font-size: 1.5em;
   		padding: 15px;
@@ -546,6 +563,13 @@ footer a:hover, a:visited{
 
   	}
 
+  	.skills-content {
+	
+	font-family: 'Arimo', sans-serif;
+
+	
+}
+
 
   	.nav-toggle {
   		display: none;
@@ -553,6 +577,7 @@ footer a:hover, a:visited{
 
   	.section-title {
   		text-align: center;
+  		font-family: Impact , sans-serif;
   	}
 
   	#my-pic {
@@ -608,6 +633,7 @@ footer a:hover, a:visited{
 
   	.section-title {
   		text-align: center;
+  		font-family: Impact , sans-serif;
   	}
 
   	#my-pic {
@@ -618,6 +644,12 @@ footer a:hover, a:visited{
   	p, h1, h2, h3{
   		text-align: center;
   	}
+
+  	.skills-content {
+	
+	font-family: 'Arimo', sans-serif;
+	
+}
 
 
 
