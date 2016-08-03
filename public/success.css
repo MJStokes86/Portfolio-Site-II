@@ -11,7 +11,7 @@ body {
 	height:100vh;
 	background-size: cover;
 	background-position:center;
-	color: white;
+	color: #fff;
 	display: flex;
 	flex-direction:column;
 	justify-content: center;
@@ -19,10 +19,10 @@ body {
 }
 
 h1 {
-	border: solid #fff;
-	color: #fff;
+	/* border: solid #fff; */
+	color: #000;
 	font-family: 'Arimo', sans-serif;
 	padding: 50px;
-	background: rgba(0, 0, 0, 0.7)
+	background-color: #8DC3D7;
 
 }
