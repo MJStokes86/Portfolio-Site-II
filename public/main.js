@@ -2,31 +2,33 @@ $(document).ready(function(){
 
 	
 	$('#resume-button').click(function(){
-		window.location.href = ('Michael_J_Stokes_Resume.pdf')
+		window.open('Michael_J_Stokes_Resume.pdf')
 	});
 
 	$('#project-link-1').click(function(){
-		window.location.href = ('https://namethattube.herokuapp.com/')
+		window.open('https://namethattube.herokuapp.com/', '_blank');
+
+
 	});
 
 	$('#source-code-1').click(function(){
-		window.location.href = ('https://github.com/MJStokes86/Name-That-Tube')
+		window.open('https://github.com/MJStokes86/Name-That-Tube')
 	});
 
 	$('#project-link-2').click(function(){
-		window.location.href = ('https://stokesblog.herokuapp.com/')
+		window.open('https://stokesblog.herokuapp.com/')
 	});
 
 	$('#source-code-2').click(function(){
-		window.location.href = ('https://github.com/MJStokes86/Rails-Blog')
+		window.open('https://github.com/MJStokes86/Rails-Blog')
 	});
 
 	$('#project-link-3').click(function(){
-		window.location.href = ('http://stokes-todo-app.herokuapp.com/')
+		window.open('http://stokes-todo-app.herokuapp.com/')
 	});
 
 	$('#source-code-3').click(function(){
-		window.location.href = ('https://github.com/MJStokes86/ToDo-App')
+		window.open('https://github.com/MJStokes86/ToDo-App')
 	});
 
 	// $('#project-link-4').click(function(){
@@ -34,7 +36,7 @@ $(document).ready(function(){
 	// });
 
 	$('#source-code-4').click(function(){
-		window.location.href = ('https://github.com/WDI-Bulbasaur/Traveling_Football_Fan')
+		window.open('https://github.com/WDI-Bulbasaur/Traveling_Football_Fan')
 	});
 
 	// $('#project-link-5').click(function(){
@@ -50,7 +52,7 @@ $(document).ready(function(){
 	// });
 
 	$('#source-code-6').click(function(){
-		window.location.href = ('https://github.com/MJStokes86/Movie-Review-App')
+		window.open('https://github.com/MJStokes86/Movie-Review-App')
 	});
 
 	// $('#project-link-7').click(function(){
@@ -62,11 +64,11 @@ $(document).ready(function(){
 	// });
 
 	$('#project-link-8').click(function(){
-		window.location.href = ('http://mjstokes86.herokuapp.com/')
+		window.open('http://mjstokes86.herokuapp.com/')
 	});
 
 	$('#source-code-8').click(function(){
-		window.location.href = ('https://github.com/MJStokes86/Portfolio-Site')
+		window.open('https://github.com/MJStokes86/Portfolio-Site')
 	});
 
 	// $('#project-link-9').click(function(){
@@ -74,26 +76,26 @@ $(document).ready(function(){
 	// });
 
 	$('#source-code-9').click(function(){
-		window.location.href = ('https://github.com/MJStokes86/Portfolio-Site-II')
+		window.open('https://github.com/MJStokes86/Portfolio-Site-II')
 	});
 
 
 
 	$('#project-link-10').click(function(){
-		window.location.href = ('http://nlm-marketing.herokuapp.com/')
+		window.open('http://nlm-marketing.herokuapp.com/')
 	});
 
 	$('#source-code-10').click(function(){
-		window.location.href = ('https://github.com/MJStokes86/NLM-Marketing')
+		window.open('https://github.com/MJStokes86/NLM-Marketing')
 	});
 
 
     $('#project-link-12').click(function(){
-		window.location.href = ('http://music-forum.herokuapp.com/')
+		window.open('http://music-forum.herokuapp.com/')
 	});
 
 	$('#source-code-12').click(function(){
-		window.location.href = ('https://github.com/MJStokes86/Music-Forum.git')
+		window.open('https://github.com/MJStokes86/Music-Forum.git')
 	});
 
 
