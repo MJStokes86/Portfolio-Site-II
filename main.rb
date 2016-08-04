@@ -18,23 +18,23 @@ post '/' do
 Pony.options = {
   :via => :smtp,
   :via_options => {
-    :address              => 'smtp.gmail.com',
+    :address              => 'smtp.sendgrid.net',
     :location 			  => '/c/sendmail/./sendmail',
     :ssl 				  => true,
     :arguments			  => '-t',
     :port                 => '587',
     :enable_starttls_auto => true,
-    :user_name            => 'stokes8671@gmail.com',
-    :password             => "Iamsuccessful1",
+    :user_name            =>  ENV['SENDGRID_USERNAME'],
+    :password             => ENV['SENDGRID_PASSWORD'],
     :authentication       => :plain, # :plain, :login, :cram_md5, no auth by default
-    :domain               => "localhost",
+    :domain               => "heroku.com",
     # :tls				  => true
   }
 }
 
 
 	Pony.mail(
-		:to => 'stokes8671@gmail.com', 
+		:to => 'mjstokes1986@att.net', 
 		:from => name + '<' + mail + '>',
 		:reply_to => mail,
 		:subject => subject,
