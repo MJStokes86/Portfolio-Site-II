@@ -19,16 +19,12 @@ Pony.options = {
   :via => :smtp,
   :via_options => {
     :address              => 'smtp.sendgrid.net',
-    # :location 			  => '/c/sendmail/./sendmail',
-    # :ssl 				  => true,
-    # :arguments			  => '-t',
     :port                 => '587',
     :enable_starttls_auto => true,
     :user_name            => 'app54636495@heroku.com',
     :password             => 'j4pvdfes6230',
     :authentication       => :plain, # :plain, :login, :cram_md5, no auth by default
-    :domain               => "heroku.com",
-    # :tls				  => true
+    :domain               => "heroku.com"
   }
 }
 
@@ -38,7 +34,8 @@ Pony.options = {
 		:from => name + '<' + mail + '>',
 		:reply_to => mail,
 		:subject => subject,
-		:body => body)
+		:body => body
+		)
 		
 	
 
