@@ -166,6 +166,11 @@ header {
 
 }
 
+.about-me {
+	margin-top: -70px;
+	padding-bottom: 100px;
+}
+
 .section-title {
 	margin-top: 75px;
 }
@@ -446,6 +451,16 @@ footer a:hover, a:visited{
   		height: 200px !important;
   		margin-top: -225px;
   	}
+
+  	#logo-bottom {
+  		width: 100px !important;
+  		height: 100px !important;
+  		margin-top: 100px;
+
+
+  	}
+
+
   	.list-group li{
   		display: none;
   	}
@@ -474,7 +489,7 @@ footer a:hover, a:visited{
 
   	.section-title {
   		text-align: center;
-  		font-family: Impact , sans-serif !important;
+  		font-family: Impact !important;
   	}
 
   	#my-pic {
@@ -536,7 +551,7 @@ footer a:hover, a:visited{
 
   	.section-title {
   		text-align: center;
-  		font-family: Impact , sans-serif !important;
+  		font-family: Impact !important;
   	}
 
   	#my-pic {
@@ -600,7 +615,7 @@ footer a:hover, a:visited{
 
   	.section-title {
   		text-align: center;
-  		font-family: Impact , sans-serif !important;
+  		font-family: Impact !important;
   	}
 
   	#my-pic {
@@ -656,7 +671,7 @@ footer a:hover, a:visited{
 
   	.section-title {
   		text-align: center;
-  		font-family: Impact , sans-serif !important;
+  		font-family: Impact !important;
   	}
 
   	#my-pic {
