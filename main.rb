@@ -18,13 +18,14 @@ post '/' do
 Pony.options = {
   :via => :smtp,
   :via_options => {
-    :address              => 'smtp.gmail.com',
-    :port                 => '587',
+    :address              => 'outbound.att.net',
+    :port                 => '465',
     :enable_starttls_auto => true,
-    :user_name            => 'stokes8671@gmail.com',
-    :password             => 'Iamsuccessful1',
+    :user_name            => 'mjstokes1986@att.net',
+    :password             => 'ihave9sourcesofincome',
     :authentication       => :plain, # :plain, :login, :cram_md5, no auth by default
-    :domain               => 'mjstokes.herokuapp.com'
+    :domain               => 'att.net',
+    :ssl 				  => true
   }
 }
 
