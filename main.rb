@@ -18,13 +18,13 @@ post '/' do
 Pony.options = {
   :via => :smtp,
   :via_options => {
-    :address              => 'smtp.sendgrid.net',
+    :address              => 'smtp.gmail.com',
     :port                 => '587',
     :enable_starttls_auto => true,
-    :user_name            => 'app54636495@heroku.com',
-    :password             => 'j4pvdfes6230',
+    :user_name            => 'stokes8671@gmail.com',
+    :password             => 'Iamsuccessful1',
     :authentication       => :plain, # :plain, :login, :cram_md5, no auth by default
-    :domain               => "heroku.com"
+    :domain               => "gmail.com"
   }
 }
 
