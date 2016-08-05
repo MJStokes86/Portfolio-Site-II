@@ -24,7 +24,8 @@ Pony.options = {
     :user_name            => 'stokes8671@gmail.com',
     :password             => 'Iamsuccessful1',
     :authentication       => :plain, # :plain, :login, :cram_md5, no auth by default
-    :domain               => "gmail.com"
+    :domain               => 'gmail.com',
+    :localhost			  => 'mjstokes.herokuapp.com'
   }
 }
 
