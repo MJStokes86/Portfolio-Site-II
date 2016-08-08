@@ -39,32 +39,33 @@ nav li a:visited {
 
 
 .nav-toggle {
-	position: relative;
+	position: fixed;
 	color: #0498CF;
+
 
 
 }
 
 
 .main-navigation {
-	position: absolute;
+	position: fixed;
 	top:0;
 	left:0;
-	width: 100px;
-	height: 100px;
+	width: 90px;
+	height: 90px;
 	text-align: center;
-	transform: translateY(-210%);
+	transform: translateY(-230%);
 	transition: transform 0.6s ease;
 }
 
 .main-navigation.open {
-	transform: translateY(50%);
+	transform: translateY(100%);
 }
 
 
 
 .nav-links {
-	border: solid #fff 2px;
+	border: solid #0498CF 2px;
 	background: rgba(0, 0, 0, 0.5);
 
 
@@ -77,6 +78,8 @@ nav li a:visited {
 	-ms-transition: color 0.5s linear;
 	-o-transition: color 0.5s linear;
 	transition: color 0.5s linear;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 .nav-links a:hover{
@@ -279,6 +282,13 @@ header {
 
 }
 
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	background-color: #0498CF;
+
+}
+
 .project-info {
 	padding-left: 30px;
 	color: #fff;
@@ -429,6 +439,18 @@ footer a:hover, a:visited{
 #footer-center {
 	/*border: solid #fff;*/
 	/*background: rgba(0, 0, 0, 0.7);*/
+}
+
+@media only screen and (max-width: 48em) {
+
+  	.nav-toggle {
+  		display: none;
+  	}
+
+  	.list-group {
+  		top: 5%;
+
+  	}
 }
 
 @media only screen /*iPhone 4 and iphone 4s */
