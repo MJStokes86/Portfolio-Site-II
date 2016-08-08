@@ -124,8 +124,9 @@ header {
 }
 
 .section-title {
-	font-family: Impact;
+	font-family: 'Anton', sans-serif;
 	color: #fff;
+	text-transform: uppercase;
 
 }
 
@@ -196,8 +197,9 @@ header {
 }
 
 .col-md-3 h3 {
-	font-family: Impact;
+	font-family: 'Anton', sans-serif;
 	color: #fff;
+	text-transform: uppercase;
 }
 
 .col-md-3 li {
@@ -511,7 +513,7 @@ footer a:hover, a:visited{
 
   	.section-title {
   		text-align: center;
-  		font-family: Impact !important;
+  		font-family: 'Anton', sans-serif !important;
   	}
 
   	#my-pic {
@@ -573,7 +575,7 @@ footer a:hover, a:visited{
 
   	.section-title {
   		text-align: center;
-  		font-family: Impact !important;
+  		font-family: 'Anton', sans-serif !important;
   	}
 
   	#my-pic {
@@ -637,7 +639,7 @@ footer a:hover, a:visited{
 
   	.section-title {
   		text-align: center;
-  		font-family: Impact !important;
+  		font-family: 'Anton', sans-serif !important;
   	}
 
   	#my-pic {
@@ -693,7 +695,7 @@ footer a:hover, a:visited{
 
   	.section-title {
   		text-align: center;
-  		font-family: Impact !important;
+  		font-family: 'Anton', sans-serif !important;
   	}
 
   	#my-pic {
