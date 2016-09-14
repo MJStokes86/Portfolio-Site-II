@@ -146,6 +146,7 @@ header {
 
 }
 
+
 .inner-content {
 	background-color:#373737;
 	margin-top: -50px;
@@ -244,7 +245,7 @@ header {
 
 .skill-bar span{
 	display: table;
-	height: 1px;
+	height: 5px;
 	background-color: #0498CF;
 
 }
